@@ -1,0 +1,1 @@
+export default function Page(){return (<main className='max-w-6xl mx-auto px-6 py-16'><h1 className='text-3xl font-bold'>Terms & Conditions</h1><p className='mt-3 text-white/80'>Write your terms here.</p></main>)}
