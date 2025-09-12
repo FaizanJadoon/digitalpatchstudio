@@ -10,3 +10,13 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 *.log
+node_modules
+.next
+out
+dist
+.vercel
+.env
+.env.*
+*.log
+.DS_Store
+.vscode
