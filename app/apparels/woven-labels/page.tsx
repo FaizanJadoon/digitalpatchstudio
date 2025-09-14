@@ -40,14 +40,19 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Woven Labels</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              Woven labels are premium textile labels created on a loom using colored yarns. They are widely used on clothing, bags, hats, and other textile products as a reliable way to showcase branding and product information.
+
+Crafted from high-quality materials such as polyester, nylon, or cotton, our woven labels are built to be durable, soft, and long-lasting.
+
+You can fully personalize your labels with your brand name, logo, size, care instructions, or custom text. Available in a wide range of sizes, colors, and shapes, our woven labels can be attached using sewing, ironing, or adhesive backing — whichever best suits your product.
+
+Simply share your material, design, size, and quantity requirements, and we’ll provide you with a tailored estimate.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/woven-labels-1-1024x1022.png"
               alt="Woven Labels"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +61,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Fine yarns for crisp micro-type and icons. Heat-cut or folded with soft edges that sit comfortably against the skin.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
-              alt="Woven Labels detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Custom folds, sizes, and backing styles. Supplied on rolls or cut units, ready for sewing or heat-press.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
-              alt="Woven Labels detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>

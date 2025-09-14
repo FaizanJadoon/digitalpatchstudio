@@ -40,14 +40,30 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Gym Wears</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              <br></br>
+              Welcome to Digital Patch Studio, your destination for high-quality personalized gym apparel designed for every fitness enthusiast. Our activewear is crafted from durable, breathable, and comfortable materials, built to keep you performing at your best.
+
+We offer a wide selection of customizable gym wear, including t-shirts, tank tops, leggings, and shorts. With our easy-to-use design options, you can create a bespoke workout outfit that reflects your unique style and fits your exact needs.
+<br></br><br></br>
+Why Choose Digital Patch Studio Gym Wear?
+<br></br>
+Customizable Designs – Choose your colors, images, logos, and fonts.
+<br></br>
+Performance Fabrics – Moisture-wicking, quick-drying, and breathable to keep you cool and dry.
+<br></br>
+Comfort & Flexibility – Designed for full range of motion, so nothing holds you back.
+<br></br>
+Versatility – Perfect for personal workouts, sports teams, or promotional fitness branding.
+<br></br><br></br>
+In a crowded gym, our custom gym apparel helps you stand out, feel confident, and push harder toward your goals.
+
+<br></br> Share your material, design, size, and quantity requirements, and we’ll provide a personalized estimate. Start designing your unique Digital Patch Studio activewear today.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/05/Gym-Wears.png"
               alt="Gym Wears"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +72,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Stretch fabrics, flat seams, and sweat-resistant prints. We make branding that survives real training cycles.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
-              alt="Gym Wears detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Shorts, tops, and hoodies with reflective hits, woven labels, and hangtag options.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
-              alt="Gym Wears detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>

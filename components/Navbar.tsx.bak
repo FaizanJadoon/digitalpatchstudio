@@ -49,10 +49,10 @@ const topNav = [
 ];
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);          // Services mega
   const [activeKey, setActiveKey] = useState<string>("digitizing");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [openApparel, setOpenApparel] = useState(false);
+  const [openApparel, setOpenApparel] = useState(false); // Apparels dropdown
   const menuRef = useRef<HTMLDivElement>(null);
   const apparelRef = useRef<HTMLDivElement>(null);
 
@@ -70,26 +70,15 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/50 backdrop-blur">
-      <div className="max-w-6xl mx-auto px-6 h-24 lg:h-[13rem] flex items-center justify-between">
-        {/* Logo (large, clean glow; no chip) */}
+      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+        {/* Logo -> image */}
         <Link href="/" className="block" aria-label="Digital Patch Studio">
-          <span className="relative inline-flex items-center">
-            {/* soft radial highlight so it lifts off the bar */}
-            <span
-              aria-hidden
-              className="pointer-events-none absolute -inset-4 md:-inset-5 opacity-70
-                         [mask-image:radial-gradient(closest-side,white,transparent)]
-                         bg-white/10"
-            />
-            <img
-              src="/images/logo.png"
-              alt="Digital Patch Studio"
-              className="relative z-10 h-14 md:h-16 lg:h-[12rem] w-auto
-                         [filter:drop-shadow(0_0_12px_rgba(0,0,0,0.55))_drop-shadow(0_0_14px_rgba(56,189,248,0.35))]
-                         -my-1"
-              loading="eager"
-            />
-          </span>
+          <img
+            src="/images/logo.png"
+            alt="Digital Patch Studio"
+            className="h-12 md:h-14 lg:h-16 w-auto -my-2"
+            loading="eager"
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -100,8 +89,7 @@ export default function Navbar() {
                 <button
                   className="hover:text-sky-300"
                   onClick={(e) => { e.stopPropagation(); setOpen((v) => !v); }}
-                  aria-haspopup="true"
-                  aria-expanded={open}
+                  aria-haspopup="true" aria-expanded={open}
                 >
                   Services ▾
                 </button>
@@ -150,12 +138,7 @@ export default function Navbar() {
                         {hasChildren && (
                           <div className="rounded-2xl bg-white/5 p-2">
                             {activeCat!.children!.map((sub) => (
-                              <Link
-                                key={sub.href}
-                                href={sub.href}
-                                className="block px-3 py-2 rounded-xl hover:bg-white/10"
-                                onClick={() => setOpen(false)}
-                              >
+                              <Link key={sub.href} href={sub.href} className="block px-3 py-2 rounded-xl hover:bg-white/10" onClick={() => setOpen(false)}>
                                 {sub.label}
                               </Link>
                             ))}
@@ -170,9 +153,8 @@ export default function Navbar() {
               <div key="apparels" className="relative" ref={apparelRef} onMouseEnter={() => setOpenApparel(true)}>
                 <button
                   className="hover:text-sky-300"
-                  onClick={(e) => { e.stopPropagation(); setOpenApparel((v) => !v); }}
-                  aria-haspopup="true"
-                  aria-expanded={openApparel}
+                  onClick={(e) => { e.stopPropagation(); setOpenApparel((v)=>!v); }}
+                  aria-haspopup="true" aria-expanded={openApparel}
                 >
                   Apparels ▾
                 </button>
@@ -183,13 +165,8 @@ export default function Navbar() {
                     onMouseLeave={() => setOpenApparel(false)}
                   >
                     <div className="rounded-2xl border border-white/10 bg-black/80 backdrop-blur p-2 shadow-xl">
-                      {apparelsLinks.map((a) => (
-                        <Link
-                          key={a.href}
-                          href={a.href}
-                          className="block px-3 py-2 rounded-xl hover:bg-white/10"
-                          onClick={() => setOpenApparel(false)}
-                        >
+                      {apparelsLinks.map((a)=>(
+                        <Link key={a.href} href={a.href} className="block px-3 py-2 rounded-xl hover:bg-white/10" onClick={()=>setOpenApparel(false)}>
                           {a.label}
                         </Link>
                       ))}
@@ -203,62 +180,51 @@ export default function Navbar() {
               </Link>
             )
           )}
-          <Link
-            href="/contact"
-            className="px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 font-semibold"
-          >
-            Get Quote
-          </Link>
+          <Link href="/contact" className="px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 font-semibold">Get Quote</Link>
         </nav>
 
         {/* Mobile menu button */}
-        <button
-          className="md:hidden"
-          onClick={() => setMobileOpen((v) => !v)}
-          aria-label="Toggle menu"
-        >
-          ☰
-        </button>
+        <button className="md:hidden" onClick={() => setMobileOpen((v) => !v)} aria-label="Toggle menu">☰</button>
       </div>
 
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className="md:hidden border-t border-white/10 bg-black/80">
           <div className="max-w-6xl mx-auto px-6 py-3 space-y-2">
-            <Link href="/" className="block py-2 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Home</Link>
+            <Link href="/" className="block py-2 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Home</Link>
             <details className="group">
               <summary className="cursor-pointer py-2">Services</summary>
               <div className="pl-4 py-2 space-y-2">
                 <details open>
                   <summary className="cursor-pointer py-2">Digitizing Services</summary>
                   <div className="pl-4 space-y-1">
-                    <Link href="/services/left-chest-embroidery" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Left Chest Embroidery</Link>
-                    <Link href="/services/cap-embroidery" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Cap Embroidery</Link>
-                    <Link href="/services/jacketback-embroidery" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Jacketback Embroidery</Link>
-                    <Link href="/services/towel-embroidery" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Towel Embroidery</Link>
+                    <Link href="/services/left-chest-embroidery" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Left Chest Embroidery</Link>
+                    <Link href="/services/cap-embroidery" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Cap Embroidery</Link>
+                    <Link href="/services/jacketback-embroidery" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Jacketback Embroidery</Link>
+                    <Link href="/services/towel-embroidery" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Towel Embroidery</Link>
                   </div>
                 </details>
-                <Link href="/services/raster-to-vector" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Raster To Vector Services</Link>
-                <Link href="/services/digital-marketing" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Digital Marketing</Link>
-                <Link href="/services/seo-smm" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>SEO / Social Media Marketing</Link>
-                <Link href="/services/web-and-app-development" className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Web & App Development</Link>
+                <Link href="/services/raster-to-vector" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Raster To Vector Services</Link>
+                <Link href="/services/digital-marketing" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Digital Marketing</Link>
+                <Link href="/services/seo-smm" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>SEO / Social Media Marketing</Link>
+                <Link href="/services/web-and-app-development" className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Web & App Development</Link>
               </div>
             </details>
 
-            <Link href="/pricing" className="block py-2 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Pricing</Link>
-            <Link href="/patches" className="block py-2 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Patches</Link>
+            <Link href="/pricing" className="block py-2 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Pricing</Link>
+            <Link href="/patches" className="block py-2 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Patches</Link>
 
             <details className="group">
               <summary className="cursor-pointer py-2">Apparels</summary>
               <div className="pl-4 py-2 space-y-1">
-                {apparelsLinks.map((a) => (
-                  <Link key={a.href} href={a.href} className="block py-1 hover:text-sky-300" onClick={() => setMobileOpen(false)}>{a.label}</Link>
+                {apparelsLinks.map(a=>(
+                  <Link key={a.href} href={a.href} className="block py-1 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>{a.label}</Link>
                 ))}
               </div>
             </details>
 
-            <Link href="/contact" className="block py-2 hover:text-sky-300" onClick={() => setMobileOpen(false)}>Contact</Link>
-            <Link href="/contact" className="inline-block px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 font-semibold" onClick={() => setMobileOpen(false)}>Get Quote</Link>
+            <Link href="/contact" className="block py-2 hover:text-sky-300" onClick={()=>setMobileOpen(false)}>Contact</Link>
+            <Link href="/contact" className="inline-block px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 font-semibold" onClick={()=>setMobileOpen(false)}>Get Quote</Link>
           </div>
         </div>
       )}

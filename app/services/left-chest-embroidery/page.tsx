@@ -59,7 +59,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
+              src="/images/Left_Chest 1.jpg"
               alt="Left chest embroidery sample on fabric"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -111,7 +111,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/2.jpg"
+              src="/images/left chess 2.jpg"
               alt="Left chest sizing and placement visual"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -145,12 +145,12 @@ export default function Page() {
         <H2>Left Chest Gallery</H2>
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           {[
-            "https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg",
+            "https://www.xtremeemb.com/wp-content/uploads/2022/10/TGOD-Left-Chest1.jpg",
             "https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg",
             "https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg",
-            "https://www.xtremeemb.com/wp-content/uploads/2022/10/1.jpg",
+            "https://www.xtremeemb.com/wp-content/uploads/2022/10/HSA-Small-Lettering1.jpg",
             "https://www.xtremeemb.com/wp-content/uploads/2022/10/3.jpg",
-            "https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg",
+            "https://www.xtremeemb.com/wp-content/uploads/2022/10/Griffins-Applique1.jpg",
           ].map((src, i) => (
             <div key={i} className="rounded-2xl border border-white/10 overflow-hidden">
               <img src={src} alt={`Left chest sample ${i + 1}`} className="w-full h-auto" loading="lazy" />
@@ -243,7 +243,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/mockup-06-2.png"
+              src="/images/Left_Chest 3.jpg"
               alt="Digitizing preview mockup"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

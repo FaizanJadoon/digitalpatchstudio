@@ -40,14 +40,33 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Sports Jerseys</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              <br></br>
+              Welcome to Digital Patch Studio, where we create a wide range of personalized sports jerseys perfect for teams, clubs, and individual athletes.
+
+Our jerseys are made from premium, breathable fabrics that keep you cool and comfortable during even the most intense games. With endless customization options, you can personalize your jersey with team colors, logos, names, numbers, fonts, and graphics — ensuring a unique design that matches your identity.
+
+Built for Every Sport:
+From basketball, soccer, and football to baseball and beyond, our custom jerseys help you stand out, showcase team spirit, and promote your organization in style.
+<br></br><br></br>
+Why Choose Digital Patch Studio Jerseys?
+<br></br>
+High-quality materials designed for durability and performance.
+<br></br>
+Fully customizable designs tailored to your team or personal style.
+<br></br>
+Breathable fabrics that ensure comfort in every match.
+<br></br>
+Suitable for both individual orders and full team outfits.
+<br></br><br></br>
+Whether you need jerseys for an entire team or a single customized sports shirt, we’ve got you covered.
+
+ Share your material, design, size, and quantity details, and we’ll provide a personalized estimate. Don’t wait — bring your team’s identity to life with Digital Patch Studio custom jerseys today!
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-02.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/05/sports-04-2048x1455.png"
               alt="Sports Jerseys"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +75,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Breathable fabrics with tackle-twilled numbers or sublimated graphics. Player names, sizes, and colorways managed at scale.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
-              alt="Sports Jerseys detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Team packs with sizing runs, captain patches, and extras—delivered game-ready.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
-              alt="Sports Jerseys detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>

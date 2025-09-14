@@ -102,6 +102,80 @@ export default function Page() {
         </div>
       </Card>
 
+       <Card>
+        <div className="grid gap-8 md:grid-cols-2 items-start">
+          <div>
+            <H2>Digital Patch Studio – Proven Local SEO Services</H2>
+            <Lead className="mt-3">
+              Customers no longer rely on newspapers or yellow pages — they search online, instantly, for local businesses the moment they need them. If your business doesn’t appear in those searches, you’re losing valuable customers to your competitors.
+
+At Digital Patch Studio, we provide cost-effective Local SEO solutions designed to put your business on the map — literally. Our strategies make sure your brand shows up at the exact moment potential clients are ready to visit, call, or make a purchase.
+
+With us, you’re not just gaining visibility — you’re gaining customers.
+            </Lead>
+            
+          </div>
+          <div>
+            <img
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/seo-smm-4.png"
+              alt="Social media content examples"
+              className="w-full h-auto rounded-2xl border border-white/10"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </Card>
+
+       <Card>
+        <div className="grid gap-8 md:grid-cols-2 items-start">
+          <div>
+            <H2>Local SEO Services – Works for Every Business</H2>
+            <Lead className="mt-3">
+              While many organizations thrive on clients from across the globe, a large share of customers still prefer to work with local businesses they can trust. If your brand isn’t optimized for “local SEO services near me”, you’re missing out on a loyal customer base that’s already looking for what you offer.
+
+At Digital Patch Studio, we integrate local SEO strategies into both the front end and back end of your website. This ensures your business appears where it matters most — in front of nearby customers who are ready to connect. People naturally want to engage with businesses they can reach in person, and by not investing in professional local SEO services, you’re leaving that market — and its loyalty — on the table.
+            </Lead>
+            
+          </div>
+          <div>
+            <img
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/seo-smm-2.png"
+              alt="Social media content examples"
+              className="w-full h-auto rounded-2xl border border-white/10"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </Card>
+
+       <Card>
+        <div className="grid gap-8 md:grid-cols-2 items-start">
+          <div>
+            <H2>Why Choose Digital Patch Studio as Your SMM Agency</H2>
+            <Lead className="mt-3">
+              We Help You Truly Connect With Clients
+In today’s digital world, success starts with understanding your audience. We don’t just market — we build genuine connections that turn customers into loyal communities.
+
+We Make Your Brand Stand Out Creatively
+At Digital Patch Studio, we dive deep into your business, think like your customers, and craft creative campaigns that spark engagement, generate leads, and drive real sales.
+
+We Position You as the Only Choice
+With intelligent strategy and bold creativity, we ensure your brand isn’t just another option — it becomes the option. Choosing Digital Patch Studio means choosing an SMM partner that communicates with your audience on a deeper, lasting level.
+
+            </Lead>
+            
+          </div>
+          <div>
+            <img
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/seo-smm-10.png"
+              alt="Social media content examples"
+              className="w-full h-auto rounded-2xl border border-white/10"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </Card>
+
       {/* 4) SEO + SMM Together (boxed, text focus) */}
       <Card>
         <H2>One Plan, Two Channels</H2>
@@ -115,25 +189,7 @@ export default function Page() {
         />
       </Card>
 
-      {/* 5) Recent Work (boxed grid of 3) */}
-      <Card>
-        <H2>Recent Work</H2>
-        <div className="mt-6 grid gap-6 md:grid-cols-3">
-          {[
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg", title:"Traffic Lift", tag:"SEO"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg", title:"Lead Gen", tag:"Paid + SMM"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg", title:"Brand Reach", tag:"Organic Social"},
-          ].map((c,i)=>(
-            <div key={i} className="rounded-2xl border border-white/10 overflow-hidden">
-              <img src={c.src} alt={c.title} className="w-full h-auto" loading="lazy" />
-              <div className="p-4">
-                <div className="font-semibold">{c.title}</div>
-                <div className="text-white/60 text-sm">{c.tag}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </Card>
+      
 
       {/* 6) CTA (boxed) */}
       <Card>

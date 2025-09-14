@@ -30,12 +30,12 @@ export default function Page() {
   // Hot-linked images from xtremeemb.com so you see a full page immediately.
   // Replace with your own assets before launch.
   const gallery = [
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/3.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Towel-1-e1666742567201.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Chenille-2-e1666742517346.jpeg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Cross-Stitch.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Rattlers-Chenille-2.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Sweet-Pea-Towel-1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Duck-cross-stitch-1.jpg",
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Towel-1-e1666742567201.jpg"
               alt="Towel embroidery sample"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -122,7 +122,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Chenille-2-e1666742517346.jpeg"
               alt="Towel embroidery sizing/coverage visual"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

@@ -40,14 +40,30 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Towels</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              <br></br>
+              At Digital Patch Studio, we create customized towels designed to match your unique style or business needs. Whether you want a monogram or name for personal use, or a logo or message for branding and events, our towels combine function with personalization.
+<br></br>
+Available in cotton, microfiber, or bamboo, our custom towels are versatile and suitable for:
+<br></br><br></br>
+Bath & Hand Towels
+<br></br>
+Beach & Gym Towels
+<br></br>
+Kitchen & Guest Towels
+<br></br>
+Sports & Rally Towels
+<br></br>
+Promotional Giveaways
+<br></br><br></br>
+We offer both sublimation printing and embroidery customization, giving you the flexibility to design a towel that’s truly one of a kind.
+
+<br></br> Share your material, design, size, and quantity requirements, and we’ll provide you with a tailored estimate.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/05/towel-03.png"
               alt="Towels"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +72,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Thick loops and durable stitching. Great for gyms, teams, and promos—embroidery that stays neat after washes.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
-              alt="Towels detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Edge-to-edge print options and size runs from hand towels to bath sheets.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
-              alt="Towels detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>

@@ -29,12 +29,12 @@ function Pill(props: any) {
 export default function Page() {
   // Hot-linked images so you see the full design immediately (swap to your assets before launch).
   const gallery = [
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/3.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/single-colour.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Mullti-colour-768x1024.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/live-image-2-768x1024.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/vinyl-cut-768x1024.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Eagle-Flag.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Beach-Girl%E2%80%8B.jpg",
   ];
 
   return (
@@ -69,7 +69,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/single-colour.jpg"
               alt="Raster to vector result preview"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -139,7 +139,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Mullti-colour-768x1024.jpg"
               alt="Vector detail preview"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -177,7 +177,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Beach-Girl%E2%80%8B.jpg"
               alt="High-detail vector sample"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

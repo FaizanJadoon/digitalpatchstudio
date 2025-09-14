@@ -40,14 +40,27 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Beanies</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              Custom Beanies – Warm, Stylish & Personalized
+
+Custom beanies are snug-fitting knitted hats, typically made from wool or acrylic yarn, designed to keep the head and ears warm during colder months. Beyond their practicality, they are a stylish and effective way to promote a brand, team, or event. With options for embroidery or printing, beanies can showcase your logo, design, or message in a fashionable way.
+<br></br>
+Popular Styles Include:
+<br></br><br></br>
+Cuff Beanies – Featuring a folded edge for a classic, cozy look.
+<br></br>
+Pom-Pom Beanies – Topped with a decorative pom-pom for added personality.
+<br></br>
+Slouchy Beanies – Longer in length with a relaxed, unstructured fit.
+<br></br><br></br>
+Available in a wide range of colors, patterns, and styles, custom beanies can be tailored to match your brand identity or personal taste. They’re especially popular among sports teams, outdoor enthusiasts, and fashion-conscious individuals.
+
+Simply share your material, design, size, and quantity details, and we’ll provide you with a personalized estimate.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-01.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/CAP-06-1149x1536.png"
               alt="Beanies"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +69,7 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Tight knits that hold shape with clean cuff embroidery or woven label application.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
-              alt="Beanies detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Acrylic and wool options, patch sewing available, and low-MOQ for fast drops.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
-              alt="Beanies detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>

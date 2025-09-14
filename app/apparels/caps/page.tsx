@@ -40,14 +40,25 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Caps</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              Custom hats and caps are versatile accessories that can be crafted from a variety of materials and personalized with your logo, design, or message. Perfect for branding, events, teams, or fashion, they combine style with function while giving your brand visibility wherever they’re worn.
+
+Popular Styles Include:
+              <ul>
+                <li><b>Baseball & Trucker Caps</b> – Classic choices for everyday wear and promotions.</li>
+                <li><b>Dad Hats</b> – Low-profile, unstructured caps with a curved brim for a relaxed look.</li>
+                <li><b>Snapback Hats</b> – Flat-brimmed caps with an adjustable snap closure, bold and trendy.</li>
+                <li><b>Bucket Hats</b> – Wide-brimmed and soft, offering a casual, retro style.</li>
+                <li><b>Beanie Hats</b> – Knit, snug-fitting hats ideal for colder weather.</li>
+              </ul>
+              Each type offers unique design possibilities, making custom caps the perfect personalized accessory or promotional tool.
+
+Simply share your material, design, size, and quantity requirements, and we’ll provide you with a tailored estimate.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/Caps-1.png"
               alt="Caps"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +67,7 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Structured/unstructured crowns, center-seam aware digitizing, and clean embroidery with optional 3D puff.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
-              alt="Caps detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              PVC, leather, and woven patches available. Snapback, strapback, and fitted options with bulk-friendly pricing.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
-              alt="Caps detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
+     
 
       {/* CTA */}
       <Card>

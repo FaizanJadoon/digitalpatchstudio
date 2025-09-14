@@ -28,12 +28,12 @@ function Pill(props: any) {
 
 export default function Page() {
   const gallery = [
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/jacket-back-1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Dj-Pressure.jpg",
     "https://www.xtremeemb.com/wp-content/uploads/2022/10/3.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg",
-    "https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Holy-Mary-Live-Image-1.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/HOLY.jpg",
+    "https://www.xtremeemb.com/wp-content/uploads/2022/10/Space-Jacket-Back-1.jpg",
   ];
 
   return (
@@ -68,7 +68,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/jacket-back-1.jpg"
               alt="Jacketback embroidery sample"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -120,7 +120,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/HOLY.jpg"
               alt="Jacketback sizing/placement visual"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

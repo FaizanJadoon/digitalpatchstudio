@@ -40,57 +40,20 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">T-Shirts</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              T-shirts are timeless casual wear, loved by men and women of all ages. Made from lightweight, breathable fabrics such as cotton, polyester, or blended materials, they are versatile enough for every occasion — from casual outings and sporting events to business casual settings.
+
+Style Options: Choose from a wide variety of styles, including crew neck, scoop neck, V-neck, and more, to match your personal taste or brand identity.
+
+Printing Options: Personalize your t-shirts with custom graphics or text. We offer both screen printing and digital printing to ensure your design looks bold, vibrant, and long-lasting.
+
+Simply provide us with your material, design, size, and quantity preferences, and we’ll prepare a customized estimate for you.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/T-SHIRT.png"
               alt="T-Shirts"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Combed cotton and blends with reliable sizing. We set artwork for screen, DTF, or DTG so colors land clean and durable.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-01.png"
-              alt="T-Shirts detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Neck relabel, hem tags, bagging, and size stickers available. Quick reprints and restocks to keep you in stock.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-02.png"
-              alt="T-Shirts detail B"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
             />

@@ -109,26 +109,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* 5) RECENT WORK (boxed grid of 3) */}
-      <Card>
-        <H2>Recent Work</H2>
-        <div className="mt-6 grid gap-6 md:grid-cols-3">
-          {[
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg", title:"Sweet", tag:"Digitizing"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg", title:"Rattlers", tag:"Chenille"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg", title:"Duck", tag:"Cross Stitch"},
-          ].map((c,i)=>(
-            <div key={i} className="rounded-2xl border border-white/10 overflow-hidden">
-              <img src={c.src} alt={c.title} className="w-full h-auto" loading="lazy" />
-              <div className="p-4">
-                <div className="font-semibold">{c.title}</div>
-                <div className="text-white/60 text-sm">{c.tag}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </Card>
-
       {/* 6) CTA (boxed) */}
       <Card>
         <div className="grid gap-8 md:grid-cols-2 items-center">

@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 :root {
+  --radius: 12px;
+}
+
+a { @apply text-ink-700 hover:text-accent-400; }
+button { @apply text-ink-700; }
+
+.card {
+  @apply rounded-2xl border border-[color:var(--stroke,rgba(255,255,255,0.1))] bg-surface-card;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
   --bg: 16 16 20;
   --fg: 247 247 248;
 }

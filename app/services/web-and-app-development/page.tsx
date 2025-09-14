@@ -94,7 +94,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-03.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/mob-and-app-3.png"
               alt="Product and engineering collaboration"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -149,7 +149,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-02.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/mob-and-app-6.png"
               alt="Agile product delivery"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -199,7 +199,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/mob-and-app-4.png"
               alt="Product showcase"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

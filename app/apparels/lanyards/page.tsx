@@ -47,7 +47,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/lanyards-1024x970.png"
               alt="Lanyards"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -68,7 +68,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/keychains-768x789.png"
               alt="Lanyards detail A"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -89,7 +89,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/lanyards-1024x970.png"
               alt="Lanyards detail B"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"

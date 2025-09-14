@@ -65,7 +65,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Embroidery-Patches%E2%80%8B.jpg"
               alt="Embroidery patch detail"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -88,7 +88,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Chenille-Patches%E2%80%8B.jpg"
               alt="Chenille patch texture"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -110,7 +110,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Leather-Patches%E2%80%8B-1.jpg"
               alt="Leather patch example"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -132,7 +132,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/6.jpg"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Woven-Patches%E2%80%8B.jpg"
               alt="Woven patch with fine detail"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -177,7 +177,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-01.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Sublimation-Patches%E2%80%8B.jpg"
               alt="Sublimation color sample"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -199,7 +199,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-03.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2022/10/Pvc-Patches%E2%80%8B.jpg"
               alt="PVC patch set"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -213,9 +213,9 @@ export default function Page() {
         <H2>Recent Work</H2>
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           {[
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/1-1.jpg", title:"Skull"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/3-1.jpg", title:"FFDL"},
-            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/4.jpg", title:"Lucky"},
+            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/Embroidery-Patches%E2%80%8B.jpg", title:"Skull"},
+            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/Chenille-Patches%E2%80%8B.jpg", title:"FFDL"},
+            {src:"https://www.xtremeemb.com/wp-content/uploads/2022/10/Leather-Patches%E2%80%8B-1.jpg", title:"Lucky"},
           ].map((c,i)=>(
             <div key={i} className="rounded-2xl border border-white/10 overflow-hidden bg-white/[0.03]">
               <img src={c.src} alt={c.title} className="w-full h-auto" loading="lazy" />

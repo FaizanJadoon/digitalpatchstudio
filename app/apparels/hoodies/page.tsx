@@ -40,14 +40,25 @@ export default function Page() {
             <Pill>APPARELS</Pill>
             <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">Hoodies</h1>
             <Lead className="mt-4">
-              Premium build, consistent sizing, and clean finishing. We keep the process simple:
-              quick proofs, clear timelines, and helpful support from first idea to final delivery.
+              Custom hoodies are the perfect blend of comfort, style, and versatility. Designed with an attached hood, they can be personalized with your brand logo, event design, or custom message, making them ideal for promotions, uniforms, or personalized gifts.
+<br></br>
+Popular Styles Include:
+<br></br>
+Zip-Up Hoodies – Featuring a front zipper closure, usually crafted from heavier fabric for added warmth.
+<br></br>
+Pullover Hoodies – Classic style with a front pocket, worn over the head for everyday comfort.
+<br></br>
+Crop-Top Hoodies – A modern twist on tradition, shorter in length and typically ending above the waist.
+<br></br>
+Our hoodies are available in a wide variety of materials (cotton, polyester, or blends), colors, and patterns to match your brand or personal taste.
+
+Simply share your material, design, size, and quantity preferences, and we’ll provide you with a customized estimate.
             </Lead>
             <CTA />
           </div>
           <div>
             <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-03.png"
+              src="https://www.xtremeemb.com/wp-content/uploads/2023/03/hoddie-06-2048x1924.png"
               alt="Hoodies"
               className="w-full h-auto rounded-2xl border border-white/10"
               loading="lazy"
@@ -56,47 +67,6 @@ export default function Page() {
         </div>
       </Card>
 
-      {/* Section A */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Quality & Materials</H2>
-            <Lead className="mt-3">
-              Heavyweight fleece and smooth print surfaces. We manage placements across chest, sleeve, pocket, and back.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-02.png"
-              alt="Hoodies detail A"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
-
-      {/* Section B */}
-      <Card>
-        <div className="grid gap-8 md:grid-cols-2 items-start">
-          <div>
-            <H2>Fit, Print & Branding</H2>
-            <Lead className="mt-3">
-              Embroidery, screen print, or DTF. Private label finishing and fold-bag available for retail-ready delivery.
-            </Lead>
-            <CTA />
-          </div>
-          <div>
-            <img
-              src="https://www.xtremeemb.com/wp-content/uploads/2022/11/digi-mark-01.png"
-              alt="Hoodies detail B"
-              className="w-full h-auto rounded-2xl border border-white/10"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </Card>
 
       {/* CTA */}
       <Card>
