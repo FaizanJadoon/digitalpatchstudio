@@ -21,8 +21,8 @@ export default function Footer(){
           <div className="font-semibold text-white mb-2">Policies</div>
           <ul className="space-y-2">
             <li><Link href="/terms" className="hover:text-sky-300">Terms & Conditions</Link></li>
-            <li><Link href="/refund" className="hover:text-sky-300">Refund Policy</Link></li>
-            <li><Link href="/privacy" className="hover:text-sky-300">Privacy Policy</Link></li>
+            <li><Link href="/refund-policy" className="hover:text-sky-300">Refund Policy</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-sky-300">Privacy Policy</Link></li>
           </ul>
         </div>
         <div>
